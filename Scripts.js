@@ -30,12 +30,3 @@ window.onclick = function(event) {
     $("input#crust").val("");
     $("input#topping").val("");
   });
-
-function Pizza(size, crust, topping) {
-    this.size = size;
-    this.crust = crust;
-    this.topping = topping;
- }
-Pizza.prototype.pizza = function() {
-  return this.size + " " + this.crust +" "+ this.topping;
-}
